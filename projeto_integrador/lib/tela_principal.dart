@@ -4,7 +4,7 @@ class TelaPrincipal extends StatefulWidget {
   const TelaPrincipal({super.key});
 
   @override
-  _TelaPrincipalState createState() => _TelaPrincipalState();
+  State<TelaPrincipal> createState() => _TelaPrincipalState();
 }
 
 class _TelaPrincipalState extends State<TelaPrincipal> {
